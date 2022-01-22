@@ -10,12 +10,12 @@ function SocialMedia(){
       <h3>Entrar</h3>
 
       <div className="social-icons">
-        <FaGoogle  className="social-iconsGoogle" />
+        <FaGoogle className="social-iconsGoogle" />
         <FaFacebookF  className="social-iconsFacebook" />
       </div>
 
       <div className="or-divider">
-        ou
+        OU
       </div>
 
     </Social>

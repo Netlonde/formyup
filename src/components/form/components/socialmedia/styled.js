@@ -10,12 +10,14 @@ const Social = styled.div`
   h3{
     font-weight: 600 ;
     margin-bottom: 30px;
+    margin-top: 10px;
   }
 
   .social-icons{
     display: flex;
     gap: 10px;
     height: 55px;
+    margin-bottom: 10px;
   }
 
   .social-iconsFacebook,
@@ -29,6 +31,8 @@ const Social = styled.div`
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-size: 2.9rem;
+    transition: all ease-in-out 300ms;
   }
 
   .social-iconsGoogle{
@@ -41,12 +45,21 @@ const Social = styled.div`
     color: #fff;
   }
 
+  .social-iconsFacebook:hover{
+    background: #263c68;
+  }
+
+  .social-iconsGoogle:hover{
+    background: #92241a;
+  }
+
 
   .or-divider {
     width: 310px;
     overflow: hidden;
     text-align: center;
     color: #9e9e9e;
+    font-size: 10px;
   }
 
   .or-divider:before,
@@ -70,6 +83,12 @@ const Social = styled.div`
   .or-divider:after {
     left: 0.5em;
     margin-right: -50%;
+  }
+
+  @media (max-width: 550px ) {
+    .or-divider{
+      width: 150%;
+    }
   }
 `;
 

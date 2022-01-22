@@ -26,6 +26,7 @@ const GlobalStyle = createGlobalStyle`
     border: 1px solid #ccc;
     margin-bottom: 20px;
     height: 53px;
+    outline: 0;
   }
 
   button{
@@ -39,6 +40,12 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 700;
     color: #fff;
     height: 59px;
+    transition: all ease-in-out 300ms;
+  }
+
+  button:hover{
+    background-color: #ff1213;
+    border: 1px solid #ff1213;
   }
 
   a{
@@ -47,6 +54,18 @@ const GlobalStyle = createGlobalStyle`
     margin: 25px 0px;
     font-size: 10px;
   }
+
+  a:hover{
+    text-decoration: none;
+  }
+
+  @media (max-width: 550px ) {
+    input,
+    button{
+      width: 80%;
+    }
+  }
+
 `;
 
 export const Container = styled.div`
