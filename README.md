@@ -26,4 +26,10 @@
 
 The application will open in the browser on http://localhost:3000
 
+# :clapper: Deploy
 
+<ul>
+  <li>
+    <a href="https://formyup.netlify.app/">formyup</a>
+  </li>
+</ul>
