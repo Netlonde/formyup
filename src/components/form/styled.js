@@ -10,7 +10,7 @@ const Box = styled.div`
   background-color: #fff;
 
   @media (max-width: 550px ) {
-    width: 80%;
+    width: 85%;
   }
 `;
 
